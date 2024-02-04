@@ -1,0 +1,108 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: white;
+}
+header{
+    background-color: white;
+    padding:40px;
+    text-align: left;
+    text-decoration: none;
+    color:grey;
+
+}
+.div1{
+    background-color:#536878;
+    padding: 280px;
+    text-align: center;
+}
+h2{
+    position: relative;
+    top:-10rem;
+    color: white;
+}
+.happy{
+    height: 500px;
+    width: auto;
+    position: relative;
+    top: -23rem;
+    border-radius: 20px;
+}
+.logo{
+    height:150px;
+    width: auto;
+    justify-content: left;
+}
+a{
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    top: -4rem;
+    left:10rem ;
+    margin-left: 30px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+.Aboutus {
+    transition: transform 0.3s ease;
+    transform: scale(1); 
+}
+
+.Aboutus:hover {
+    transform: scale(1.1);
+}
+
+.program {
+    transition: transform 0.3s ease;
+    transform: scale(1); 
+}
+
+.program:hover {
+    transform: scale(1.1);
+}
+
+.Prices {
+    transition: transform 0.3s ease;
+    transform: scale(1); 
+}
+
+.Prices:hover {
+    transform: scale(1.1);
+}
+.Contact {
+    transition: transform 0.3s ease;
+    transform: scale(1); 
+}
+
+.Contact:hover {
+    transform: scale(1.1);
+}
+table {
+    height: 80%;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+.theprogram{
+    background-color: #536878;
+    padding: 100px;
+    text-align: center;
+}
+.pro{
+    position: relative;
+    top: -5rem;
+    color: white;
+}
